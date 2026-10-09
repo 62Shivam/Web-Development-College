@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="PRJ1-Student Form.css">
+    </head>
+    <body>
+        <header>
+            <h1>Sri Narayan Singh College</h1>
+        </header>
+        <main>
+            <div class="box">
+                <h2>Student Form</h2>
+                    <form>
+                        <div class="item_name">
+                            <label for="name" class="name">Name</label>
+                            <input type="text" id="name" placeholder="First Name" name="student_first_name" required>
+                            <input type="text" id="name" placeholder="Last Name" name="student_last_name" required>
+                        </div>
+                        <div class="item_gender">
+                            <label class="gender">Gender</label>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male<label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="item_pno">
+                            <label for="number">Phone Number</label>
+                            <input type="number" id="number" name="student_number" placeholder="+91">
+                        </div>
+                        <div class="item_address">
+                            <label for="address">Address</label>
+                            <select name="student_address" id="address" required>
+                                <option value="Motihari">Motihari</option>
+                                <option value="Bihar,Motihari">Bihar, Motihari</option>
+                            </select>
+                        </div>
+                       <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <span>2026 S.N.S College- By Shivam Kumar</span>
+        </footer>
+    </body>
+</html>
